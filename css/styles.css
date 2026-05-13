@@ -27,7 +27,16 @@ body {
     background-color: #2c3034;
     border: 1px solid #495057;
     border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.banner-container {
+    display: flex;
+    margin: 20px 0px;
+    background-color: #2c3034;
+}
+
+.banner-container img {
+    margin-bottom: 15px;
 }
 
 .floating-left-container {
