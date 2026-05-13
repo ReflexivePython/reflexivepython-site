@@ -149,11 +149,11 @@ body {
 
 /* light/dark mode switch theme */
 .form-check-input:checked {
-    background-color: var(--warning-color);
-    border-color: var(--warning-color);
+    background-color: var(--warning-color)!important;
+    border-color: var(--warning-color)!important;
 }
 
 .form-check-input:focus {
-    box-shadow: 0 0 8px rgba(255, 204, 0, 0.4);
-    border-color: var(--warning-color);
+    box-shadow: 0 0 8px rgba(255, 204, 0, 0.4)!important;
+    border-color: var(--warning-color)!important;
 }
