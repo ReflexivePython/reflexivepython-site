@@ -1,0 +1,38 @@
+[
+    {
+        "id": "mochigochi",
+        "title": "MochiGochi: Antiguo Scrappy",
+        "summary": "¿Enserio era un Scrappy? (Capaz lo sigue siendo)",
+        "content": "Sí, así como lo ves. MochiGochi originalmente fue hecho en solo una semana. El código se caía a pedazos, los sprites lloraban en la esquina, pero con la update 2.0 pasó a restructurarse muchas partes del código y con ello, se mejoró mucho más el juego, pasando a ser un juego pequeño."
+    },
+    {
+        "id": "loop-inc",
+        "title": "¿De dónde viene Loop Inc?",
+        "summary": "Sí, tiene mucho que ver con lo que viví.",
+        "content": "Resulta que Loop Inc originalmente transmitía una vibra pesada, melancólica, muy vacía y oscura. Trabajé por un tiempo en una empresa en la cual te exigían resultados y tiempo extra todo el tiempo. Loop Inc trataba de retratar ese mundo asfixiante de una forma satírica. De replicar comentarios de 'apoyo' y de personas con más oportunidades o ventajas que otros. ¿Cuál era ese mundo laboral? Call Center."
+    },
+    {
+        "id": "bloodbit",
+        "title": "Mascota virtual cazavampiros",
+        "summary": "(Mi idea más normal)",
+        "content": "En cierto punto de junio de 2025 me moría por ideas frescas de juegos para desarrollar. En un punto, hice una lluvia de ideas improvisada con mi hermana y pensé en hacer un tamagotchi que saliera a cazar vampiros. Lo solté porque más que nada, el concepto no me terminó de convencer. Más tarde esa idea terminó mutando en MochiGochi. De hecho fue ese mismo día."
+    },
+    {
+        "id": "konrad",
+        "title": "Konrad: Loquito de centro",
+        "summary": "Un esquizofrénico sin cordura... Y sin historia.",
+        "content": "Konrad iba a ser un juego experimentando la pregunta: ¿Qué es un humano cuando no controla sus acciones conscientemente, como un sonámbulo sin serlo? Originalmente Konrad sería desarrollado como un juego de terror psicológico con una historia girando en torno a él descubriendo que él era el monstruo realmente. Konrad padecía esquizofrenia. Al final lo descarté porque no me convencía la historia, ni quería dejar algo ofensivo y tachar a personas que padecen enfermedades mentales de esa forma."
+    },
+    {
+        "id": "morning-experience",
+        "title": "Morning Experience (Odio despertar temprano)",
+        "summary": "Cuando lo único que te queda al despertar... Es programar.",
+        "content": "Ahh... Que lindo. Mi primer juego en Godot. Morning Experience fue un juego que dejé solo para ver y jugar entre amigos. Era simple: El fondo se movía, tu personaje saltaba y aparecían obstáculos al estilo Dinosaurio de Google. Lo hice en dos días, cuando me encontraba despierto de madrugada por mis terribles horarios laborales. Se puede decir que sentó las bases para Loop Inc una semana más tarde."
+    },
+    {
+        "id": "praying-for-a-villain",
+        "title": "Praying for a Villain, otro plataformero",
+        "summary": "Ideas buenas, momentos malos. Pobre juego.",
+        "content": "El concepto inicial de este juego era tan simple como absurdo: Un héroe decide rescatar al villano y traerlo de vuelta porque está aburrido. Sería un plataformero side-scrolling con power-ups y bastante enfocado en Android. Al pobrecito lo descarté porque unos días después me llegó una mejor idea: Energy Tycoon para Roblox. Ni siquiera vio sprites aparte del de su protagonista."
+    }
+]

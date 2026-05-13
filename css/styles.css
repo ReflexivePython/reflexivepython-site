@@ -1,0 +1,94 @@
+body {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+.card{
+    background-color: #1e1e1e;
+    border: 1px solid #2a2a2a;
+}
+
+.navbar{
+    background-color: #0a0a0a;
+}
+
+.container{
+    margin: 20px 20px;
+}
+
+.custom-card {
+    margin-top: 20px;
+}
+
+.hero-container {
+    display: flex;
+    border-radius: 25px;
+    margin: 20px 20px;
+    background-color: #2c3034;
+    border: 1px solid #495057;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.floating-left-container {
+    float: left;
+    padding: 3% 5%;
+}
+
+.floating-left-container img{
+    border-radius: 100%;
+    border-style: dashed;
+    border-width: 5px;
+    border-color:green;
+    width: 200px;
+}
+
+.card-body img{
+    width: 100px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px #495057;
+}
+
+.custom-scroller::-webkit-scrollbar {
+    height: 8px;
+}
+.custom-scroller::-webkit-scrollbar-thumb {
+    background: #495057; 
+    border-radius: 10px;
+}
+
+.btn-custom-action {
+    background-color: transparent;
+    color: #ffcc00;            
+    border: 2px solid #ffcc00;
+    padding: 10px 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    border-radius: 8px;       
+}
+
+.btn-custom-action:hover {
+    background-color: #ffcc00;
+    color: #212529;             
+    box-shadow: 0 0 15px rgba(255, 204, 0, 0.4); 
+    transform: translateY(-2px); 
+}
+
+.img-pixel {
+    image-rendering: pixelated;
+    image-rendering: crisp-edges;
+}
+
+.gallery-item {
+    background-color: #2c3034;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    border: 1px solid #ffcc00;
+}
