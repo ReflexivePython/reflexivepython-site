@@ -1,15 +1,58 @@
-body {
-    background-color: #121212;
-    color: #f1f1f1;
+/* Default light theme */
+:root {
+    --main-bg: #dbdcdc;
+    --bg-card: #FFFFFF;
+    --text-color: #2D3436;
+    --border-color: #d1d5da;
+    --bg-hero: #ffffff;
+    --warning-color: #F39C12;
 }
 
-.card{
-    background-color: #1e1e1e;
-    border: 1px solid #2a2a2a;
+/* Default dark theme */
+[data-bs-theme="dark"] {
+    --main-bg: #161616;
+    --bg-card: #1e1e1e;
+    --text-color: #f1f1f1;
+    --border-color: #3a3a3a;
+    --bg-hero: #2c3034;
+    --warning-color: #ffcc00;
+}
+
+/* Body background and font color */
+body {
+    background-color: var(--main-bg) !important;
+    color: var(--text-color);
+}
+
+/* Card bg and border */
+.card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+}
+
+/* hero section container bg border and margin */
+.hero-container {
+    background-color: var(--bg-hero);
+    display: flex;
+    margin: 20px 20px;
+    border-radius: 15px;
+    border: 1px solid var(--border-color);
+}
+
+/* uuuuugh im not gonna comment ts this is just margin padding and bg all above */
+.banner-container {
+    display: flex;
+    margin: 20px 0px;
+    background-color: var(--bg-hero);
+    border: 1px solid var(--border-color);
+}
+
+.container-fluid {
+    background-color: var(--bg-hero);
 }
 
 .navbar{
-    background-color: #0a0a0a;
+    background-color: var(--bg-hero);
 }
 
 .container{
@@ -20,20 +63,6 @@ body {
     margin-top: 20px;
 }
 
-.hero-container {
-    display: flex;
-    border-radius: 25px;
-    margin: 20px 20px;
-    background-color: #2c3034;
-    border: 1px solid #495057;
-    border-radius: 15px;
-}
-
-.banner-container {
-    display: flex;
-    margin: 20px 0px;
-    background-color: #2c3034;
-}
 
 .banner-container img {
     margin-bottom: 15px;
@@ -69,8 +98,8 @@ body {
 
 .btn-custom-action {
     background-color: transparent;
-    color: #ffcc00;            
-    border: 2px solid #ffcc00;
+    color: var(--warning-color);            
+    border: 2px solid var(--warning-color);
     padding: 10px 30px;
     font-weight: bold;
     text-transform: uppercase;
@@ -80,7 +109,7 @@ body {
 }
 
 .btn-custom-action:hover {
-    background-color: #ffcc00;
+    background-color: var(--warning-color);
     color: #212529;             
     box-shadow: 0 0 15px rgba(255, 204, 0, 0.4); 
     transform: translateY(-2px); 
@@ -91,13 +120,40 @@ body {
     image-rendering: crisp-edges;
 }
 
+.modal-header,
+.modal-body {
+    background-color: var(--bg-card);
+}
+
+.modal-body {
+    color: var(--text-color);
+}
+
+.blog-container,
+.blog-content {
+    background-color: var(--bg-card);
+    color: var(--text-color);
+    border-radius: 10px;
+}
+
 .gallery-item {
-    background-color: #2c3034;
+    background-color: var(--bg-card);
     transition: transform 0.3s ease;
     cursor: pointer;
 }
 
 .gallery-item:hover {
     transform: scale(1.05);
-    border: 1px solid #ffcc00;
+    border: 1px solid var(--warning-color);
+}
+
+/* light/dark mode switch theme */
+.form-check-input:checked {
+    background-color: var(--warning-color);
+    border-color: var(--warning-color);
+}
+
+.form-check-input:focus {
+    box-shadow: 0 0 8px rgba(255, 204, 0, 0.4);
+    border-color: var(--warning-color);
 }

@@ -13,7 +13,7 @@
 
 <body>
     <!-- Dayum so this is the header uhum -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg border-bottom">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -45,6 +45,12 @@
                         </ul>
                     </li>
                 </ul>
+
+                <div class="form-check form-switch ms-3">
+                    <input class="form-check-input" type="checkbox" role="switch" id="themeSwitcher">
+                    <label class="form-check-label text-secondary small" id="switch-mode" for="themeSwitcher">Modo Claro</label>
+                </div>
+
             </div>
         </div>
     </nav>
@@ -60,7 +66,7 @@
                 <div class="modal-content bg-dark text-light border-secondary">
                     <div class="modal-header border-secondary">
                         <h5 class="modal-title text-warning" id="modalTitle"></h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
                     <div class="modal-body" id="modalBody">
                         <!-- The modal cards will load here from the js script -->
@@ -133,7 +139,7 @@
         <div class="modal-dialog modal-dialog-centered modal-lg">
             <div class="modal-content bg-dark border-secondary">
                 <div class="modal-header border-0 pb-0">
-                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
                 <div class="modal-body text-center pt-0">
@@ -147,7 +153,7 @@
 
 
     <!-- End of the line... Oh i meant to say footer -->
-    <footer class="container-fluid py-4 mt-5 border-top border-secondary">
+    <footer class="container-fluid py-4 mt-5 border-top">
         <div class="row">
             <div class="col-12 text-center">
                 <p class="text-muted mb-0">
@@ -161,6 +167,8 @@
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
     <script src="../js/scrap_manager.js"></script>
+
+    <script src="../js/light_mode_manager.js"></script>
 
 </body>
 

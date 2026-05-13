@@ -13,7 +13,7 @@
 
 <body>
     <!-- Dayum so this is the header uhum -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg border-bottom">
         <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -45,6 +45,12 @@
                         </ul>
                     </li>
                 </ul>
+
+                <div class="form-check form-switch ms-3">
+                    <input class="form-check-input" type="checkbox" role="switch" id="themeSwitcher">
+                    <label class="form-check-label text-secondary small" id="switch-mode" for="themeSwitcher">Modo Claro</label>
+                </div>
+
             </div>
         </div>
     </nav>
@@ -67,7 +73,7 @@
                             <h5 class="card-title mb-0" style="color: #ffcc00;">Loop Inc</h5>
                         </div>
 
-                        <p class="card-text small text-light">
+                        <p class="card-text small">
                             Simulador de vida laboral en el que cada día es igual al anterior,
                             hasta que pequeñas grietas aparecen. ¿Cuánto tiempo vas a esperar
                             a que las cosas cambien?
@@ -90,7 +96,7 @@
                             <h5 class="card-title mb-0" style="color: #ffcc00;">MochiGochi</h5>
                         </div>
 
-                        <p class="card-text small text-light">
+                        <p class="card-text small">
                             Cuida de tu pequeña mascota, dale de comer, hazla dormir
                             y no te cuestiones el por qué no muere aunque la abandones por días.
                             (No se aceptan devoluciones de slimes ni cubos de hielo)
@@ -113,7 +119,7 @@
                             <h5 class="card-title mb-0" style="color: #ffcc00;">Cookies n' Cream</h5>
                         </div>
 
-                        <p class="card-text small text-light">
+                        <p class="card-text small">
                             Un pack de assets de colores pastel vibrantes y vivos,
                             perfecto para aquellos que odian la UI (como yo, a veces).
                         </p>
@@ -136,7 +142,7 @@
                             <h5 class="card-title mb-0" style="color: #ffcc00;">Energy Tycoon</h5>
                         </div>
 
-                        <p class="card-text small text-light">
+                        <p class="card-text small">
                             ¿Roblox? Todos lo conocemos. Hazte un Tycoon y sé pionero en formas de energía
                             cada vez más locas y presume a otros jugadores tus mascotas y dinero.
                             (Ignora la miniatura hecha con IA, enserio)
@@ -160,7 +166,7 @@
                             <h5 class="card-title mb-0" style="color: #ffcc00;">The Dead CyberSpace</h5>
                         </div>
 
-                        <p class="card-text small text-light">
+                        <p class="card-text small">
                             ¿Quieres conocer mi primer juego? Bien, este fue. Un plataformero en el que
                             tienes que recorrer en el vacío, fracciones ya eliminadas del internet y lleno de cosas
                             obsoletas. (Nota: Este juego ya está abandonado.)
@@ -192,7 +198,7 @@
                         <h5 class="card-title mb-0" style="color: #ffcc00;">Loop Inc Legacy</h5>
                     </div>
 
-                    <p class="card-text small text-light">
+                    <p class="card-text small">
                         Ahhh... Nada como la vieja guardia, ¿no? Prueba la primera versión jugable de
                         Loop Inc aquí.
                     </p>
@@ -208,7 +214,7 @@
         </div>
 
         <!-- End of the line... Oh i meant to say footer -->
-        <footer class="container-fluid py-4 mt-5 border-top border-secondary">
+        <footer class="container-fluid py-4 mt-5 border-top">
             <div class="row">
                 <div class="col-12 text-center">
                     <p class="text-muted mb-0">
@@ -221,6 +227,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+
+        <script src="../js/light_mode_manager.js"></script>
 
 </body>
 
