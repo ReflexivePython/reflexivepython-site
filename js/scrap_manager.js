@@ -7,11 +7,11 @@ async function loadScrapLand() {
         // Create a card for every scrap
         const card = `
             <div class="col-md-4 mb-4">
-                <div class="card custom-card h-100 shadow-sm">
+                <div class="card custom-card h-100 shadow-sm mt-auto">
                     <div class="card-body">
                         <h5 class="card-title text-warning">${item.title}</h5>
                         <p class="card-text small">${item.summary}</p>
-                        <button class="btn btn-sm btn-outline-warning" 
+                        <button class="btn btn-sm btn-outline-warning mt-auto" 
                                 onclick="loadNote('${item.id}')">
                             Leer nota
                         </button>
