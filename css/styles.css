@@ -74,9 +74,8 @@ body {
 }
 
 .custom-card {
-    margin-top: 20px;
+    margin: 1.5rem 0;
 }
-
 
 .banner-container img {
     margin-bottom: 15px;
@@ -84,7 +83,7 @@ body {
 
 .floating-left-container {
     float: left;
-    padding: 3% 5%;
+    padding: 2% 2%;
 }
 
 .floating-left-container img{
